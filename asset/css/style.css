@@ -1,0 +1,848 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --fam: 'Poppins', sans-serif
+}
+
+:root {
+  --fc: #313131
+}
+
+:root {
+  --fc2: #18A7B9
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+#navber {
+  margin-top: 50px;
+
+}
+#navber .logo-res ul{
+  justify-content: end;
+}
+
+#navber .logo a {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--fc2);
+}
+
+#navber ul li {
+  padding-left: 30px;
+}
+.manu-fix {
+  margin-top: 0px !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  line-height:70px;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.479);
+}
+.manu-fix ul li a{
+   color: #fff !important;
+}
+#navber ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--fc);
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+#navber ul li a:hover {
+  font-weight: 600;
+}
+
+#navber a {
+  font-family: var(--fam);
+}
+
+body {
+  font-family: var(--fam) !important;
+}
+
+/* ======================================  nav ber end  ============================================ */
+/* ======================================  banner part  start  ============================================ */
+#banner .banner-content h1 {
+  color: var(--fc);
+  font-size: 62px;
+  font-weight: 700;
+  margin-top: 89px;
+}
+
+#banner .banner-content p {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+#banner .banner-content ul {
+  margin-top: 30px;
+}
+
+#banner .banner-content ul li a {
+  margin-right: 10px;
+  font-size: 17px;
+  line-height: 50px;
+  color: var(--fc2);
+  padding: 0 35px;
+  border: 1px solid var(--fc2);
+  border-radius: 45px 0px 45px 0px;
+  -webkit-border-radius: 45px 0px 45px 0px;
+  -moz-border-radius: 45px 0px 45px 0px;
+  -ms-border-radius: 45px 0px 45px 0px;
+  -o-border-radius: 45px 0px 45px 0px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+#banner .banner-content ul li a:hover {
+  background-color: var(--fc2);
+  color: aliceblue;
+  box-shadow: 0px 13px 29px var(--fc2);
+}
+
+#banner .banner-content h1 span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#banner .banner-content h1 .h1color {
+  color: var(--fc2);
+}
+
+#banner {
+  position: relative;
+}
+
+#banner .vactor {
+  position: absolute;
+  z-index: -1;
+  left: -48px;
+  bottom: -423px;
+}
+
+#banner .banner-photo {
+  overflow: hidden;
+  z-index: -1;
+  width: 580px;
+  height: 720px;
+  position: absolute;
+  right: 40px;
+  top: -40px !important;
+  border-radius: 6px 6px 6px 200px;
+  -webkit-border-radius: 6px 6px 6px 200px;
+  -moz-border-radius: 6px 6px 6px 200px;
+  -ms-border-radius: 6px 6px 6px 200px;
+  -o-border-radius: 6px 6px 6px 200px;
+}
+
+#banner .befor {
+  position: absolute;
+  right: 468px;
+  top: 20px;
+  z-index: -2;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+#banner .after {
+  position: absolute;
+  right: 62px;
+  bottom: -106px;
+  z-index: -2;
+}
+
+#banner .prgress {
+  margin-top: 75px;
+
+}
+
+#banner .prgress .bar {
+  margin-right: 50px;
+  position: relative;
+}
+
+#banner .prgress .bar .bar1 {
+  position: absolute;
+  z-index: -1;
+  left: -7px;
+  top: 2px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-radius: 60%;
+}
+
+#banner .prgress .bar .bar11 {
+
+  border-left: 15px solid #FE8432;
+  border-top: 30px solid #FE8432;
+
+}
+
+#banner .prgress .bar .bar12 {
+  border-left: 15px solid #18A7B9;
+  border-top: 30px solid #18A7B9;
+}
+
+#banner .prgress .bar .bar13 {
+  border-left: 15px solid #42B918;
+  border-top: 30px solid #42B918;
+}
+
+#banner .prgress .bar .bar2 {
+  color: var(--fc);
+  font-weight: 500;
+  font-size: 40px;
+}
+
+/* ======================================  banner part  end  ============================================ */
+
+/* ======================================  logo part  start  ============================================ */
+#logo {
+  margin-top: 150px;
+
+}
+
+#logo .logopart {
+  height: 150px;
+  background-color: #fafafa;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  -ms-border-radius: 75px;
+  -o-border-radius: 75px;
+}
+
+#logo .logopart .logos {
+  padding: 60px 0px;
+}
+
+#logo .logopart .logos:first-child {
+  margin-left: 30px;
+}
+
+/* ======================================  logo part  end  ============================================ */
+/* == ====================================  about part  end  ============================================ */
+#about {
+  margin-top: 120px;
+}
+
+#about .content-1 {
+  padding: 30px 0px;
+}
+
+#about .content-1 a {
+  margin-top: 28px;
+  padding-top: 10px;
+  font-size: 17px;
+  line-height: 50px;
+  color: var(--fc2);
+  padding: 0 35px;
+  border: 1px solid var(--fc2);
+  border-radius: 45px 0px 45px 0px;
+  -webkit-border-radius: 45px 0px 45px 0px;
+  -moz-border-radius: 45px 0px 45px 0px;
+  -ms-border-radius: 45px 0px 45px 0px;
+  -o-border-radius: 45px 0px 45px 0px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+#about .content-1 a:hover {
+  background-color: var(--fc2);
+  color: aliceblue;
+  box-shadow: 0px 13px 29px var(--fc2);
+}
+
+#about .content-1 p {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: normal;
+  color: #6B6B6B;
+}
+
+#about .content-2 h2 {
+  text-transform: capitalize;
+  color: #313131;
+  font-size: 54px;
+  font-weight: 500;
+}
+
+#about .about-bottom {
+  margin-top: 120px;
+}
+
+#about .about-bottom .content-photo {
+  margin-right: 40px;
+}
+
+#about .about-bottom .content-photo img {
+  overflow: hidden;
+  border-radius: 10px 200px 10px 10px;
+  -webkit-border-radius: 10px 200px 10px 10px;
+  -moz-border-radius: 10px 200px 10px 10px;
+  -ms-border-radius: 10px 200px 10px 10px;
+  -o-border-radius: 10px 200px 10px 10px;
+}
+
+#about .about-bottom .content-text {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+#about .about-bottom .content-text h3 {
+  font-size: 72px;
+  margin-right: 30px;
+
+}
+
+#about .about-bottom .content-text ul li {
+  position: relative;
+}
+
+#about .about-bottom .content-text ul li img {
+  position: absolute;
+  z-index: -1;
+  left: -24px;
+  bottom: -5px;
+}
+
+#about .about-bottom .content-text ul li p {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #6B6B6B;
+  font-family: var(--fam)
+}
+
+#about .about-bottom .content-text .clild-text {
+  margin-bottom: 110px;
+}
+
+/* ======================================  about part  end  ============================================ */
+/* ======================================  engnieer part  end  ============================================ */
+#engineer {
+  margin-top: 110px;
+}
+
+#engineer .eng-header h2 {
+  color: #313131;
+  text-transform: capitalize;
+  font-size: 56px;
+  font-weight: 600;
+  font-family: var(--fam)
+}
+
+#engineer .eng-header p {
+  color: #6B6B6B;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#engineer .content-text .navigations {
+  justify-content: space-between;
+}
+
+#engineer .content-text .navigations i {
+  color: #F0BB00;
+  font-size: 20px;
+  width: 30px;
+}
+
+.cards {
+  margin-top: 80px;
+}
+
+#engineer .content-text .cards .card {
+  width: 30.64%;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.082), 1px 2px 15px rgba(0, 0, 0, 0.082);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-left: 58px;
+}
+
+#engineer .content-text .cards .card .eng-img {
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+  margin-left: 85px;
+}
+
+#engineer .content-text .cards .card-body h4 {
+  margin-top: 2px;
+  color: #313131;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--fam)
+}
+
+#engineer .content-text .cards .card-body h5 {
+  margin-top: 2px;
+  color: #6B6B6B;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--fam)
+}
+
+#engineer .content-text .cards .card-body ul {
+  margin-top: 35px;
+}
+
+#engineer .content-text .cards .card-body ul li {
+  color: #6B6B6B;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--fam)
+}
+
+#engineer .content-text .cards .card-body ul li:last-child {
+  margin-top: 5;
+  color: #18A7B9;
+}
+
+#engineer .content-text .slick-slider {
+  position: relative;
+}
+
+#engineer .content-text .slick-slider .pre-arrow {
+  position: absolute;
+  left: 45%;
+  bottom: -70px;
+  color: #313131;
+  z-index: 999;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+}
+
+#engineer .content-text .slick-slider .net-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: -70px;
+  color: #313131;
+  z-index: 999;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+}
+
+/* ======================================  engnieer part  end  ============================================ */
+/* ======================================  seo msr part  end  ============================================ */
+#seo-msg {
+  margin-top: 140px;
+  padding: 154px 0px;
+}
+
+#seo-msg .seo-msg-head h2 {
+  text-transform: capitalize;
+  font-size: 54px;
+  font-weight: 500;
+  font-family: var(--fam);
+  margin-bottom: 47px;
+}
+
+#seo-msg .seo-msg-text p {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: var(--fam);
+  line-height: 28px;
+  padding: 0 100px;
+}
+
+#seo-msg .seo-msg-text {
+  position: relative;
+}
+
+#seo-msg .seo-msg-text p span {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#seo-msg .seo-msg-text .seo-msg-f1 {
+  position: absolute;
+  left: 17px;
+  top: -53px;
+}
+
+#seo-msg .seo-msg-text .seo-msg-f2 {
+  position: absolute;
+  right: 8px;
+  bottom: -46px;
+}
+
+/* ======================================  seo msr part  end  ============================================ */
+
+
+/* ======================================  hadaer part  start  ============================================ */
+.header {
+  margin-top: 125px;
+}
+
+.header h2 {
+  text-transform: capitalize;
+  font-size: 54px;
+  font-family: var(--fam);
+  font-weight: 500;
+  color: #313131;
+}
+
+.header p {
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6B6B6B;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ======================================  hadaer part  end  ============================================ */
+
+
+/* ======================================  contuct part  end  ============================================ */
+#contuct-us .contuct-form form input {
+  background: #F9F9F9;
+  border: none;
+  line-height: 64px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  margin-bottom: 20px;
+  color: #6B6B6B;
+  font-family: var(--fam);
+  font-weight: 400;
+  font-size: 18;
+  padding: 10px;
+}
+#contuct-us .contuct-form form input:focus{
+   
+}
+#contuct-us .contuct-main {
+  margin-top: 30px;
+}
+
+#contuct-us .contuct-form form textarea {
+  width: 100%;
+  color: #6B6B6B;
+  font-family: var(--fam);
+  font-weight: 400;
+  font-size: 18;
+  padding: 10px;
+  background: #F9F9F9;
+  border: none;
+  line-height: 64px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+#contuct-us .contuct-form form textarea:focus {
+  border-color: #6B6B6B;
+}
+
+#contuct-us .contuct-form form button {
+  font-size: 17px;
+  line-height: 50px;
+  margin-top: 10px;
+  color: #fafafa;
+  padding: 0 35px;
+  border: none;
+  border-radius: 45px 0px 45px 0px;
+  -webkit-border-radius: 45px 0px 45px 0px;
+  -moz-border-radius: 45px 0px 45px 0px;
+  -ms-border-radius: 45px 0px 45px 0px;
+  -o-border-radius: 45px 0px 45px 0px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  background-color: #18A7B9;
+}
+
+#contuct-us .contuct-form form button:hover {
+  box-shadow: 0px 13px 29px var(--fc2);
+}
+
+/* ======================================  contuct part  end  ============================================ */
+/* ======================================  blog part  end  ============================================ */
+.blog-main {
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+.blog-main .content {
+  width: 467px;
+  height: 496px;
+  margin: 0px 25px;
+}
+
+.blog-main .content {
+  position: relative;
+}
+
+.blog-main .content .text-part {
+  position: absolute;
+  top: 160px;
+  left: 70px;
+}
+
+.blog-main .content .text-part h5 {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: var(--fam);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.blog-main .content .text-part h6 {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: var(--fam);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.blog-main .content .text-part button {
+  font-size: 17px;
+  line-height: 50px;
+  margin-top: 10px;
+  color: #fafafa;
+  padding: 0 35px;
+  border: 1px solid #fafafa;
+  border-radius: 45px 0px 45px 0px;
+  -webkit-border-radius: 45px 0px 45px 0px;
+  -moz-border-radius: 45px 0px 45px 0px;
+  -ms-border-radius: 45px 0px 45px 0px;
+  -o-border-radius: 45px 0px 45px 0px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  background: transparent;
+}
+.blog-main .content .text-part button:hover{
+  box-shadow: 0px 13px 29px rgba(255, 255, 255, 0.295);
+  background-color: rgba(250, 250, 250, 0.397);
+}
+
+.button-sub button {
+  font-size: 17px;
+  line-height: 50px;
+  margin-top: 40px;
+  color: #fafafa;
+  padding: 0 35px;
+  border: none;
+  border-radius: 45px 0px 45px 0px;
+  -webkit-border-radius: 45px 0px 45px 0px;
+  -moz-border-radius: 45px 0px 45px 0px;
+  -ms-border-radius: 45px 0px 45px 0px;
+  -o-border-radius: 45px 0px 45px 0px;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  background: #18A7B9;
+}
+
+.button-sub button:hover {
+  box-shadow: 0px 13px 29px var(--fc2);
+}
+
+/* ======================================  blog part  end  ============================================ */
+
+/* ======================================  banner part  end  ============================================ */
+
+.f-r {
+  padding: 90px 0px;
+}
+
+#footer .F-F h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--fc2);
+  font-family: var(--fam);
+}
+
+#footer .F-F p {
+  margin-top: 30px;
+}
+
+#footer .F-F ul li {
+  margin-right: 20px;
+  height: 28px;
+  width: 28px;
+  background-color: #18A7B9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+}
+
+#footer .F-F ul li i {
+  color: #fff;
+  line-height: 28px;
+
+}
+
+.f-m ul {
+  margin-top: 40px;
+}
+
+.f-m ul li {
+  margin-bottom: 20px;
+}
+
+#footer .text-st {
+  text-transform: capitalize;
+  color: #6B6B6B;
+  font-size: 16px;
+  font-weight: 300px;
+  font-family: var(--fam);
+}
+.f-l form input{
+  background: #F9F9F9;
+  border: none;
+  line-height: 64px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  color: #6B6B6B;
+  font-family: var(--fam);
+  font-weight: 400;
+  font-size: 18;
+  padding: 5px;
+  position: relative;
+
+}
+
+.f-l form{
+  position: relative;
+  width: 100%;
+}
+.f-l form button{
+  position: absolute;
+  right: -30px;
+  top: 4px;
+  border: none;
+  background:transparent;
+  height: 64px;
+}
+.f-l form button i{
+  font-size: 30px;
+  color: #6B6B6B;
+}
+.f-l form button:focus i{
+  color: #18A7B9;
+}
+.fotter-bootom p{
+font-size: 14px;
+font-weight: 400;
+font-family: var(--fam);
+color: #c2c2c2;
+}
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #18A7B9;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+/* ======================================  banner part  end  ============================================ */
